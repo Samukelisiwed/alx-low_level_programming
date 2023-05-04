@@ -1,3 +1,6 @@
+#ifndef PRINT_FUNCTIONS_H
+#define PRINT_FUNCTIONS_H
+
 void print_triangle(int size);
 void print_square(int size);
 void print_diagonal(int n);
@@ -9,3 +12,5 @@ int _isdigit(int c);
 int _isupper(int c);
 void print_most_numbers(void);
 int _putchar(char c);
+
+#endif
