@@ -1,11 +1,11 @@
-# include "main.h"
-# include <stdio.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
- * print_rev - prints string in reverse.
- * @s: the string to be printed
- * Return void
- */
+* print_rev - prints string in reverse.
+* @s: the string to be printed
+* Return void
+*/
 
 void print_rev(char *s)
 {
@@ -15,7 +15,8 @@ while (s[c] != '\0')
 {
 c++;
 }
-for (c -= 1; c <= 0; c--)
+
+for (c -= 1; c >= 0; c--)
 {
 _putchar(s[c]);
 }
